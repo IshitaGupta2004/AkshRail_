@@ -136,7 +136,7 @@ def login_page():
     st.info("For demonstration, use Username: `guest` and Password: `guest`")
 
     st.markdown("---")
-    st.caption("Prepared by Team TeachNavs. This is a detailed idea demonstration where features and technologies are frequently explained. The final project may vary.")
+    st.caption("Prepared by Team TechNavs. This is a detailed idea demonstration where features and technologies are frequently explained. The final prototype may vary.")
 
     with st.expander("✨ What You'll Find Inside"):
         st.success("""
@@ -928,5 +928,6 @@ if not st.session_state.get("authenticated"):
     login_page()
 else:
     main_app()
+
 
 
